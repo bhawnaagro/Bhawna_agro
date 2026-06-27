@@ -126,6 +126,55 @@ button:hover{background:#1b5e20}
 .dot.active{
     background:#2e7d32;
 }
+/* Customer Reviews */
+
+.reviews{
+    background:#f8fff8;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.review-box{
+    max-width:750px;
+    margin:auto;
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.review-box h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.review-box h3{
+    color:#444;
+    margin-bottom:15px;
+}
+
+.review-box p{
+    font-size:17px;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.review-btn{
+    display:inline-block;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.review-btn:hover{
+    background:#1b5e20;
+}
 </style>
 </head>
 <body>
@@ -292,22 +341,29 @@ button:hover{background:#1b5e20}
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScWIjqBzue5D8xJXDl_BEliaK9eV1vcOZntFSFzk1n3PMxvRg/viewform" target="_blank">
 </a>
 </div>
+<section class="reviews">
 
-    <br><br>
-<button type="button" onclick="document.getElementById('commentBox').style.display='block';">
-    Write a Comment
-</button>
+<div class="review-box">
 
-<div id="commentBox" style="display:none; margin-top:10px;">
-    <textarea placeholder="Write your comment here..."
-    style="width:100%; height:80px;"></textarea>
+<h2>⭐ Customer Reviews ⭐</h2>
 
-    <br><br>
+<h3>Be the First to Review</h3>
 
-    <button onclick="alert('Thank you for your feedback!')">
-        Submit Comment
-    </button>
+<p>
+At Bhawna Agro, we value honest and genuine customer feedback.
+No customer reviews have been published yet.
+
+If you have purchased any product from Bhawna Agro,
+we would love to hear about your experience.
+</p>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdGZ8H7hJAlgtD8Cm72dwnrN3C2T1wtSvSDAjOaMeLL87WogA/viewform" target="_blank" class="review-btn">
+📝 Write a Review
+</a>
+
 </div>
+
+</section>
 
 <section id="services" class="services">
   <h2>Our Services</h2>
